@@ -52,8 +52,12 @@
     },
     "019736": {
       "code": "019736",
-      "ok": false,
-      "error": "fetch failed"
+      "index": "纳斯达克100指数",
+      "trackingError": 1.7,
+      "peerError": 2.24,
+      "asOf": "2026-10-30",
+      "isIndexFund": true,
+      "ok": true
     },
     "019737": {
       "code": "019737",
