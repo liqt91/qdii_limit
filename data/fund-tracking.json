@@ -1,8 +1,8 @@
 {
   "updatedAt": "2026-11-05",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "asOfSet": [
-    "2026-11-03"
+    "2026-11-04"
   ],
   "codes": {
     "160213": {
@@ -10,7 +10,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.1,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -19,7 +19,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.18,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -28,7 +28,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.45,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -37,7 +37,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.01,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -46,7 +46,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.28,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -55,7 +55,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.7,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -64,7 +64,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.71,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -73,7 +73,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.03,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -82,16 +82,16 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.03,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
     "012752": {
       "code": "012752",
       "index": "纳斯达克100指数",
-      "trackingError": 2.28,
+      "trackingError": 2.27,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -100,7 +100,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.28,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -109,7 +109,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.3,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -118,7 +118,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.29,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -127,7 +127,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.42,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -136,7 +136,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.42,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -145,7 +145,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.43,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -154,7 +154,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.18,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -163,7 +163,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.18,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -172,7 +172,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 0.98,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -181,7 +181,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 0.98,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -190,25 +190,25 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.56,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
     "019525": {
       "code": "019525",
       "index": "纳斯达克100指数",
-      "trackingError": 1.55,
+      "trackingError": 1.56,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
     "022664": {
       "code": "022664",
       "index": "纳斯达克100指数",
-      "trackingError": 1.55,
+      "trackingError": 1.56,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -217,7 +217,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.49,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -226,7 +226,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.47,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -235,7 +235,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.48,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -244,7 +244,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.48,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -253,7 +253,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.01,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -262,7 +262,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.01,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -271,7 +271,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.42,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -280,7 +280,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.43,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -289,7 +289,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.75,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -298,7 +298,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.75,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -307,7 +307,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.75,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -316,7 +316,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.49,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -325,7 +325,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.48,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -334,7 +334,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.48,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -343,7 +343,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.48,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -352,7 +352,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.49,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -361,7 +361,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.45,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -370,7 +370,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.78,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -379,7 +379,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.79,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -388,7 +388,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.05,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -397,7 +397,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.04,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -406,7 +406,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.07,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -415,7 +415,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 2.07,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -442,7 +442,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.09,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -451,7 +451,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.12,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -460,7 +460,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 0.29,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -469,7 +469,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 0.3,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -478,7 +478,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 0.3,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -487,7 +487,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 0.3,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -496,16 +496,16 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.1,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
     "018968": {
       "code": "018968",
       "index": "纳斯达克100指数",
-      "trackingError": 1.43,
+      "trackingError": 1.42,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -514,7 +514,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.51,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -523,7 +523,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.14,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -532,7 +532,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.17,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -541,7 +541,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.1,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -550,7 +550,7 @@
       "index": "纳斯达克100指数",
       "trackingError": 1.09,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -559,7 +559,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.18,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -568,7 +568,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.22,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -577,7 +577,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.22,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -586,7 +586,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.22,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -622,7 +622,7 @@
       "index": "S&P 500 EQUAL WEIGHTED TOTAL RETURN",
       "trackingError": 1.42,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -631,7 +631,7 @@
       "index": "S&P 500 EQUAL WEIGHTED TOTAL RETURN",
       "trackingError": 1.42,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -640,7 +640,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.18,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -649,7 +649,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.19,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -658,7 +658,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.56,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -667,7 +667,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.56,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -676,7 +676,7 @@
       "index": "标准普尔500指数",
       "trackingError": 2.17,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -685,16 +685,16 @@
       "index": "标准普尔500指数",
       "trackingError": 2.18,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
     "003718": {
       "code": "003718",
       "index": "标准普尔500指数",
-      "trackingError": 0.75,
+      "trackingError": 0.76,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -703,7 +703,7 @@
       "index": "标准普尔500指数",
       "trackingError": 0.75,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -712,7 +712,7 @@
       "index": "标准普尔500指数",
       "trackingError": 0.64,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -721,25 +721,25 @@
       "index": "标准普尔500指数",
       "trackingError": 0.64,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
     "013404": {
       "code": "013404",
       "index": "S&P 500 EQUAL WEIGHTED TOTAL RETURN",
-      "trackingError": 1.06,
+      "trackingError": 1.07,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
     "015545": {
       "code": "015545",
       "index": "S&P 500 EQUAL WEIGHTED TOTAL RETURN",
-      "trackingError": 1.06,
+      "trackingError": 1.07,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -748,7 +748,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.2,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -757,7 +757,7 @@
       "index": "标准普尔500指数",
       "trackingError": 1.2,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     },
@@ -766,7 +766,7 @@
       "index": "标准普尔500指数",
       "trackingError": 0.67,
       "peerError": 2.27,
-      "asOf": "2026-11-03",
+      "asOf": "2026-11-04",
       "isIndexFund": true,
       "ok": true
     }
