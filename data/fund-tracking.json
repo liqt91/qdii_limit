@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "asOf": "2026-11-19",
   "asOfSet": [
     "2026-11-19"
@@ -52,21 +52,13 @@
     },
     "019736": {
       "code": "019736",
-      "index": "纳斯达克100指数",
-      "trackingError": 1.74,
-      "peerError": 2.3,
-      "asOf": "2026-11-19",
-      "isIndexFund": true,
-      "ok": true
+      "ok": false,
+      "error": "fetch failed"
     },
     "019737": {
       "code": "019737",
-      "index": "纳斯达克100指数",
-      "trackingError": 1.75,
-      "peerError": 2.3,
-      "asOf": "2026-11-19",
-      "isIndexFund": true,
-      "ok": true
+      "ok": false,
+      "error": "fetch failed"
     },
     "000834": {
       "code": "000834",
