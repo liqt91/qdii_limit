@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "asOf": "2026-11-20",
   "asOfSet": [
     "2026-11-20"
@@ -52,12 +52,8 @@
     },
     "019736": {
       "code": "019736",
-      "index": "纳斯达克100指数",
-      "trackingError": 1.78,
-      "peerError": 2.31,
-      "asOf": "2026-11-20",
-      "isIndexFund": true,
-      "ok": true
+      "ok": false,
+      "error": "fetch failed"
     },
     "019737": {
       "code": "019737",
