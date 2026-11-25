@@ -1,38 +1,20 @@
 {
-  "date": "2026-11-25",
-  "fetchedAt": "2026-11-25T14:30:10+08:00",
-  "slot": "close",
+  "date": "2026-11-26",
+  "fetchedAt": "2026-11-26T07:50:15+08:00",
+  "slot": "morning",
   "runs": [
     {
       "slot": "morning",
-      "at": "2026-11-25T09:40:14+08:00",
-      "time": "09:40",
-      "opened": 7,
-      "total": 135,
+      "at": "2026-11-26T07:50:15+08:00",
+      "time": "07:50",
+      "opened": 0,
+      "total": 0,
       "families": 17,
       "changed": null,
       "byIndex": {
         "标普500": {
-          "opened": 2,
-          "total": 120,
-          "families": 7,
-          "degraded": false,
-          "changed": null
-        }
-      }
-    },
-    {
-      "slot": "close",
-      "at": "2026-11-25T14:30:10+08:00",
-      "time": "14:30",
-      "opened": 7,
-      "total": 135,
-      "families": 17,
-      "changed": null,
-      "byIndex": {
-        "标普500": {
-          "opened": 2,
-          "total": 120,
+          "opened": 0,
+          "total": 0,
           "families": 7,
           "degraded": false,
           "changed": null
@@ -71,116 +53,116 @@
   "ms": {
     "available": true,
     "checked": 83,
-    "agree": 72,
+    "agree": 52,
     "mismatch": [
       {
-        "code": "021000",
+        "code": "019736",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 200
+          "limit": 10
         }
       },
       {
-        "code": "022525",
+        "code": "019737",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 100
+          "limit": 10
         }
       },
       {
-        "code": "012751",
+        "code": "000834",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 1
+          "limit": 10
         }
       },
       {
-        "code": "012753",
+        "code": "008971",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 1
+          "limit": 10
         }
       },
       {
-        "code": "019174",
+        "code": "539001",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 1
+          "limit": 10
         }
       },
       {
-        "code": "019175",
+        "code": "012752",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 1
+          "limit": 10
         }
       },
       {
-        "code": "022523",
+        "code": "023422",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 100
+          "limit": 10
         }
       },
       {
-        "code": "013404",
+        "code": "019172",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 0
+          "limit": 10
         }
       },
       {
-        "code": "015545",
+        "code": "019173",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 0
+          "limit": 10
         }
       },
       {
-        "code": "017642",
+        "code": "016452",
         "page": {
           "status": "STOPPED",
           "limit": null
         },
         "ms": {
           "status": "LIMITED",
-          "limit": 1
+          "limit": 10
         }
       }
     ]
