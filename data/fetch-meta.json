@@ -1,38 +1,20 @@
 {
-  "date": "2026-11-26",
-  "fetchedAt": "2026-11-26T14:30:11+08:00",
-  "slot": "close",
+  "date": "2026-11-27",
+  "fetchedAt": "2026-11-27T07:50:18+08:00",
+  "slot": "morning",
   "runs": [
     {
       "slot": "morning",
-      "at": "2026-11-26T09:40:10+08:00",
-      "time": "09:40",
-      "opened": 0,
-      "total": 0,
+      "at": "2026-11-27T07:50:18+08:00",
+      "time": "07:50",
+      "opened": 7,
+      "total": 135,
       "families": 17,
       "changed": null,
       "byIndex": {
         "标普500": {
-          "opened": 0,
-          "total": 0,
-          "families": 7,
-          "degraded": false,
-          "changed": null
-        }
-      }
-    },
-    {
-      "slot": "close",
-      "at": "2026-11-26T14:30:11+08:00",
-      "time": "14:30",
-      "opened": 0,
-      "total": 0,
-      "families": 17,
-      "changed": null,
-      "byIndex": {
-        "标普500": {
-          "opened": 0,
-          "total": 0,
+          "opened": 2,
+          "total": 120,
           "families": 7,
           "degraded": false,
           "changed": null
@@ -71,7 +53,118 @@
   "ms": {
     "available": true,
     "checked": 83,
-    "agree": 83,
-    "mismatch": []
+    "agree": 63,
+    "mismatch": [
+      {
+        "code": "019736",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "019737",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "000834",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "008971",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "539001",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "012752",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "023422",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "019172",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "019173",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      },
+      {
+        "code": "016452",
+        "page": {
+          "status": "LIMITED",
+          "limit": 10
+        },
+        "ms": {
+          "status": "STOPPED",
+          "limit": null
+        }
+      }
+    ]
   }
 }
