@@ -10,6 +10,8 @@ interface Props {
     toStatus: PurchaseStatus;
     fromLimit: number | null;
     toLimit: number | null;
+    /** 日历里查得到的已知暂停原因（如「美国·感恩节」），没有就不写 */
+    reason?: string | null;
   }[];
 }
 const { items } = Astro.props;
@@ -43,6 +45,7 @@ const fmtSide = (s: PurchaseStatus, limit: number | null) =>
               <span class="cl-to">{fmtSide(c.toStatus, c.toLimit)}</span>
             </>
           )}
+          {c.reason && <span class="cl-reason">（{c.reason}）</span>}
         </span>
       </li>
     ))

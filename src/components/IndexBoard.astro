@@ -85,6 +85,15 @@ const changeParts = [
 const hasChanges = changes.hasData && changeParts.length > 0;
 const verdictText = hasChanges ? changeParts.join('，') : '没有变化';
 
+// 今天如果清一色是暂停、而且日历给出了同一个原因（如感恩节美股休市），
+// 首屏小注就把原因说出来——只报「17 家全部暂停」而不说为什么，读者只能自己猜。
+// 原因来自日历，不来自基金公告；查不到就一个字都不写。
+const stopReasons = [...new Set(changes.changes.map((c) => c.reason).filter(Boolean))] as string[];
+const commonStopReason =
+  ctx.isTrading && hasChanges && changes.changes.length > 0 && changes.changes.every((c) => c.kind === 'stopped') && stopReasons.length === 1
+    ? stopReasons[0]
+    : null;
+
 // 小节编号：有「今日变化」时它占 01，然后依次 02 / 03。
 // ★ 2026-10-23 起「美元基金」不再是独立小节（并入「今天能买多少」当第二组），
 //   编号也跟着少一个。用「主号 + 偏移」算，不再手写三个三元表达式。
@@ -182,6 +191,9 @@ const ogDescription = noData
           )
         ) : null
       }
+      {commonStopReason && (
+        <span class="mast-sum-item" data-stop-reason>原因：{commonStopReason}。</span>
+      )}
       {/* 首次收录的指数没有对比基准日（prevDate 为 null），此时整句「较上个交易日」都不该出现，
           但也不能让首屏只剩半行——明确说一句「暂无历史对比」，比留白更像人写的。 */}
       {ctx.isTrading && !noData && !changes.prevDate && (
@@ -240,6 +252,8 @@ const ogDescription = noData
                       <span class="cl-to">{fmtSide(c.toStatus, c.toLimit)}</span>
                     </>
                   )}
+                  {/* 已知暂停原因（日历里的美股休市日等）紧跟结论；查不到就一个字不写。 */}
+                  {c.reason && <span class="cl-reason">（{c.reason}）</span>}
                 </span>
               </li>
             ))}

@@ -1925,6 +1925,9 @@ a { color: inherit; text-decoration: none; }
 .cl-from { color: var(--ink-3); }
 .cl-arrow { color: var(--rule-2); }
 .cl-to { font-weight: 500; }
+/* 已知暂停原因：日历里查得到的才写，跟在结论后面作注脚。用 ink-3 与 .cl-ann 同级，
+   不另起色相；负 margin 抵掉 flex 的 8px gap，让括号读起来是「暂停」的一部分。 */
+.cl-reason { font-size: 11.5px; color: var(--ink-3); margin-left: -3px; }
 .cl-opened .cl-to { color: var(--ok); }
 .cl-stopped .cl-to { color: var(--stop); }
 .cl-limit-up .cl-to { color: var(--ok); }

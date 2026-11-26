@@ -3,6 +3,9 @@ import path from 'node:path';
 import type { DailySnapshot, FundShare, DayPoint } from './types';
 import { buildSnapshot } from './mock'; // 兜底：无真实数据时
 import { todayCST, lastNDates, prettyDateCST, isTradingDay, prevTradingDay, shiftDate } from './dates';
+// 暂停原因只认双市场日历，不从公告标题或基金状态里猜（境外节假日临时暂停
+// 早在上游就被 announcements.mjs 筛掉了，变化清单过去只能干巴巴写「暂停」）。
+import { dayInfo, offReason } from './trading-days';
 // 「今日能买清单」的唯一实现放在 scripts/digest.mjs（邮件也用它）。
 // ★ 订阅页的「最近日报」是邮件正文的镜像，但它曾经是独立拼的一套逻辑：邮件加了
 //   「代码 + 额度」清单之后墙上没有，用户一眼就看出「预览和信长得不一样」。
@@ -421,6 +424,18 @@ export interface ChangeRecord {
   kind: ChangeKind;
   /** 解释这条变化的那份公告（有就展示，没有就不写——不猜原因） */
   ann?: AnnouncementRef | null;
+  /** 不可买时的已知原因（如「美国·感恩节」）：只来自双市场日历，查不到就是 null */
+  reason?: string | null;
+}
+
+/** 变化行能给出的已知暂停原因。只认双市场日历；正常交易日或日历没覆盖到一律不写，
+ *  免得把「基金自己暂停」说成「美股休市」。 */
+function changeReason(date: string, status: PurchaseStatus): string | null {
+  if (status === 'OPEN' || status === 'LIMITED') return null;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return null;
+  const info = dayInfo(date);
+  if (info.state === 'TRADING' || info.state === 'UNKNOWN') return null;
+  return offReason(info) || null;
 }
 
 export interface DailyChanges {
@@ -494,6 +509,7 @@ export function loadDailyChanges(indexKey: string = NDX): DailyChanges {
         toLimit: to.limit,
         kind,
         ann: pickRecentAnnouncement(annMap, c.code, today),
+        reason: changeReason(to.date, to.status),
       });
     }
   }
@@ -589,9 +605,10 @@ export function loadDailyChangeHistory(n: number, indexKey: string = NDX): Daily
           toStatus: to.status,
           fromLimit: from.limit,
           toLimit: to.limit,
-          kind,
-          ann: pickRecentAnnouncement(annMap, c.code, date),
-        });
+        kind,
+        ann: pickRecentAnnouncement(annMap, c.code, date),
+        reason: changeReason(to.date, to.status),
+      });
       }
     }
     // 排序：开门 > 暂停 > 额度变动 > 未知；同类按公司名稳定排序
@@ -675,6 +692,7 @@ export function loadDailyIntraday(indexKey: string = NDX): IntradayBlock | null 
         fromLimit: from.limit ?? null,
         toLimit: to.limit ?? null,
         kind,
+        reason: changeReason(meta.date ?? '', to.status),
       } as ChangeRecord;
     })
     .filter((c): c is ChangeRecord => c !== null);
