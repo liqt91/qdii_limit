@@ -1,12 +1,12 @@
 {
   "date": "2026-11-27",
-  "fetchedAt": "2026-11-27T07:50:18+08:00",
+  "fetchedAt": "2026-11-27T09:40:10+08:00",
   "slot": "morning",
   "runs": [
     {
       "slot": "morning",
-      "at": "2026-11-27T07:50:18+08:00",
-      "time": "07:50",
+      "at": "2026-11-27T09:40:10+08:00",
+      "time": "09:40",
       "opened": 7,
       "total": 135,
       "families": 17,
@@ -24,8 +24,8 @@
   ],
   "shadow": {
     "available": true,
-    "checked": 85,
-    "agree": 85,
+    "checked": 74,
+    "agree": 74,
     "mismatch": [],
     "recovered": [],
     "gaps": {
@@ -53,7 +53,7 @@
   "ms": {
     "available": true,
     "checked": 83,
-    "agree": 63,
+    "agree": 52,
     "mismatch": [
       {
         "code": "019736",
@@ -62,7 +62,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -73,7 +73,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -84,7 +84,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -95,7 +95,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -106,7 +106,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -117,7 +117,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -128,7 +128,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -139,7 +139,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -150,7 +150,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       },
@@ -161,7 +161,7 @@
           "limit": 10
         },
         "ms": {
-          "status": "STOPPED",
+          "status": "LIMITED",
           "limit": null
         }
       }
